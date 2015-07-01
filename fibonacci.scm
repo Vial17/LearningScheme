@@ -15,6 +15,6 @@
                (display (f start))
                (newline)
                (loop-test f (+ start 1) end))
-        "")))
+        null)))
 
 (loop-test fibonacci 0 10)
